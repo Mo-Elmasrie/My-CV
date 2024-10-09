@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Maher Elmasry - CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .contact-info, .education, .experience {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mohamed Maher Elmasry</h1>
+        <section class="contact-info">
+            <h2>Personal Info</h2>
+            <ul>
+                <li><strong>Location:</strong> Cairo, Egypt</li>
+                <li><strong>Email:</strong> <a href="mailto:Mo.elmasrie@gmail.com">Mo.elmasrie@gmail.com</a></li>
+                <li><strong>Phone:</strong> +201141041202</li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/m-elmasry/">https://www.linkedin.com/in/m-elmasry/</a></li>
+                <li><strong>Date of Birth:</strong> 13 March 1995</li>
+                <li><strong>Marital Status:</strong> Single</li>
+                <li><strong>Military Status:</strong> Exempted</li>
+            </ul>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <ul>
+                <li>Bachelor of Science: Computer Science</li>
+                <li>Higher Technological Institute - 10th Of Ramadan City (2013 - 2017)</li>
+                <li>Grade: Very Good with honor</li>
+                <li>Graduation Project Grade: Excellence</li>
+            </ul>
+        </section>
+
+        <section class="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Cisco CCNA Routing And Switching (200-120)</li>
+                <li>Juniper Networks Certified Associate - Junos (JNCIA-Junos)</li>
+                <li>Cisco Certified Specialist - Data Center Core (350-601)</li>
+                <li>Cisco Certified Specialist - Data Center ACI Implementation (300-620)</li>
+                <li>Cisco Certified Network Professional Data Center (CCNP Data Center)</li>
+                <li>Cisco Certified Specialist - Enterprise Core (350-401)</li>
+            </ul>
+        </section>
+
+        <section class="work-history">
+            <h2>Work History</h2>
+            <h3>Senior IP and Data Center Network Engineer - Vodafone Greece (2023-08 - Current)</h3>
+            <ul>
+                <li>Core DataCenter Engineering team member</li>
+                <li>Resiliency and redundancy design to avoid single points of failure</li>
+                <li>Device upgrade and decommissioning</li>
+                <li>Customer service connectivity design for local and international IT Data Centers</li>
+                <li>Service migration from legacy devices</li>
+            </ul>
+
+            <h3>Senior Network & Data Center Specialist - Systems Engineering of Egypt (2020-09 - 2023-08)</h3>
+            <ul>
+                <li>Managed Cairo International Airport Terminal Building Network</li>
+                <li>Handled Cisco Nexus and Catalyst Switches</li>
+                <li>Provided full support for Veeam Backup, VMware, Dell EMC Data Domain, and Unity XT Storage Systems</li>
+                <li>Worked with Cisco security devices (ASA, ISE, Firepower)</li>
+            </ul>
+
+            <!-- Add other job roles similarly -->
+        </section>
+
+        <section class="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>Arabic</li>
+                <li>English</li>
+            </ul>
+        </section>
+
+        <section class="skills">
+            <h2>Personal Skills</h2>
+            <ul>
+                <li>Team Player</li>
+                <li>Customer-Oriented</li>
+                <li>Well Organized</li>
+                <li>Love to Automate Tasks</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
