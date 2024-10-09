@@ -5,24 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohamed Maher Elmasry - CV</title>
     <style>
+        /* General Styling */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f0f2f5;
+            color: #333;
         }
         .container {
-            max-width: 900px;
-            margin: 0 auto;
+            max-width: 1000px;
+            margin: 40px auto;
             padding: 20px;
             background: white;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
         h1, h2 {
             text-align: center;
+            color: #007BFF;
         }
-        section {
-            margin-bottom: 20px;
+        h3 {
+            color: #333;
         }
         ul {
             list-style-type: none;
@@ -31,38 +35,105 @@
         li {
             margin-bottom: 10px;
         }
-        .contact-info, .education, .experience {
+        .section {
+            margin-bottom: 30px;
+        }
+        .contact-info {
+            text-align: center;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 20px;
             margin-bottom: 20px;
+        }
+        .contact-info ul {
+            display: inline-block;
+            text-align: left;
+        }
+        .skills ul, .languages ul {
+            display: inline-block;
+        }
+        .skills, .languages {
+            margin: 0 auto;
+            text-align: center;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Visual Enhancements */
+        .profile-pic {
+            display: block;
+            margin: 0 auto;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: url('https://via.placeholder.com/120') no-repeat center center/cover;
+            margin-bottom: 20px;
+        }
+        .button {
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .experience-item, .education-item {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-left: 4px solid #007BFF;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .certifications ul {
+            column-count: 2;
+            column-gap: 20px;
+        }
+        @media (max-width: 768px) {
+            .certifications ul {
+                column-count: 1;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Mohamed Maher Elmasry</h1>
-        <section class="contact-info">
-            <h2>Personal Info</h2>
+        <!-- Profile Picture -->
+        <div class="profile-pic"></div>
+
+        <!-- Contact Info -->
+        <section class="contact-info section">
+            <h1>Mohamed Maher Elmasry</h1>
             <ul>
                 <li><strong>Location:</strong> Cairo, Egypt</li>
                 <li><strong>Email:</strong> <a href="mailto:Mo.elmasrie@gmail.com">Mo.elmasrie@gmail.com</a></li>
                 <li><strong>Phone:</strong> +201141041202</li>
-                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/m-elmasry/">https://www.linkedin.com/in/m-elmasry/</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/m-elmasry/">linkedin.com/in/m-elmasry/</a></li>
                 <li><strong>Date of Birth:</strong> 13 March 1995</li>
                 <li><strong>Marital Status:</strong> Single</li>
                 <li><strong>Military Status:</strong> Exempted</li>
             </ul>
         </section>
 
-        <section class="education">
+        <!-- Education -->
+        <section class="education section">
             <h2>Education</h2>
-            <ul>
-                <li>Bachelor of Science: Computer Science</li>
-                <li>Higher Technological Institute - 10th Of Ramadan City (2013 - 2017)</li>
-                <li>Grade: Very Good with honor</li>
-                <li>Graduation Project Grade: Excellence</li>
-            </ul>
+            <div class="education-item">
+                <h3>Bachelor of Science in Computer Science</h3>
+                <p>Higher Technological Institute - 10th Of Ramadan City (2013 - 2017)</p>
+                <p>Grade: Very Good with honor</p>
+                <p>Graduation Project Grade: Excellence</p>
+            </div>
         </section>
 
-        <section class="certifications">
+        <!-- Certifications -->
+        <section class="certifications section">
             <h2>Certifications</h2>
             <ul>
                 <li>Cisco CCNA Routing And Switching (200-120)</li>
@@ -74,29 +145,39 @@
             </ul>
         </section>
 
-        <section class="work-history">
+        <!-- Work History -->
+        <section class="work-history section">
             <h2>Work History</h2>
-            <h3>Senior IP and Data Center Network Engineer - Vodafone Greece (2023-08 - Current)</h3>
-            <ul>
-                <li>Core DataCenter Engineering team member</li>
-                <li>Resiliency and redundancy design to avoid single points of failure</li>
-                <li>Device upgrade and decommissioning</li>
-                <li>Customer service connectivity design for local and international IT Data Centers</li>
-                <li>Service migration from legacy devices</li>
-            </ul>
-
-            <h3>Senior Network & Data Center Specialist - Systems Engineering of Egypt (2020-09 - 2023-08)</h3>
-            <ul>
-                <li>Managed Cairo International Airport Terminal Building Network</li>
-                <li>Handled Cisco Nexus and Catalyst Switches</li>
-                <li>Provided full support for Veeam Backup, VMware, Dell EMC Data Domain, and Unity XT Storage Systems</li>
-                <li>Worked with Cisco security devices (ASA, ISE, Firepower)</li>
-            </ul>
-
-            <!-- Add other job roles similarly -->
+            <div class="experience-item">
+                <h3>Senior IP and Data Center Network Engineer - Vodafone Greece</h3>
+                <p>(2023-08 - Present)</p>
+                <ul>
+                    <li>Part of the Core DataCenter Engineering team in Vodafone Greece</li>
+                    <li>Participated in the re-design of the core data center network</li>
+                    <li>Handled service migrations and device upgrades</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Senior Network & Data Center Specialist - Systems Engineering of Egypt (SEE)</h3>
+                <p>(2020-09 - 2023-08)</p>
+                <ul>
+                    <li>Managed Cairo International Airport Terminal Building Network</li>
+                    <li>Handled Cisco Nexus, Catalyst Switches, UCS Blade Servers, and wireless controllers</li>
+                    <li>Provided full support for Veeam Backup, VMware, Dell EMC storage systems</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Enterprise Network Engineer - Telecom Egypt Co.</h3>
+                <p>(2019-03 - 2020-08)</p>
+                <ul>
+                    <li>Worked on MSAN Migration Project</li>
+                    <li>Configured MPLS, routing protocols, and access nodes</li>
+                </ul>
+            </div>
         </section>
 
-        <section class="languages">
+        <!-- Languages -->
+        <section class="languages section">
             <h2>Languages</h2>
             <ul>
                 <li>Arabic</li>
@@ -104,7 +185,8 @@
             </ul>
         </section>
 
-        <section class="skills">
+        <!-- Personal Skills -->
+        <section class="skills section">
             <h2>Personal Skills</h2>
             <ul>
                 <li>Team Player</li>
