@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Maher Elmasry - CV</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #007BFF;
+        }
+        h3 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .contact-info {
+            text-align: center;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .contact-info ul {
+            display: inline-block;
+            text-align: left;
+        }
+        .skills ul, .languages ul {
+            display: inline-block;
+        }
+        .skills, .languages {
+            margin: 0 auto;
+            text-align: center;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .profile-pic {
+            display: block;
+            margin: 0 auto;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: url('https://via.placeholder.com/120') no-repeat center center/cover;
+            margin-bottom: 20px;
+        }
+        .button {
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .experience-item, .education-item {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-left: 4px solid #007BFF;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .certifications ul {
+            column-count: 2;
+            column-gap: 20px;
+        }
+        @media (max-width: 768px) {
+            .certifications ul {
+                column-count: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-pic"></div>
+        
+        <section class="contact-info section">
+            <h1>Mohamed Maher Elmasry</h1>
+            <ul>
+                <li><strong>Location:</strong> Cairo, Egypt</li>
+                <li><strong>Email:</strong> <a href="mailto:Mo.elmasrie@gmail.com">Mo.elmasrie@gmail.com</a></li>
+                <li><strong>Phone:</strong> +201141041202</li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/m-elmasry/">linkedin.com/in/m-elmasry/</a></li>
+                <li><strong>Date of Birth:</strong> 13 March 1995</li>
+                <li><strong>Marital Status:</strong> Single</li>
+                <li><strong>Military Status:</strong> Exempted</li>
+            </ul>
+        </section>
+
+        <section class="education section">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Bachelor of Science in Computer Science</h3>
+                <p>Higher Technological Institute - 10th Of Ramadan City (2013 - 2017)</p>
+                <p>Grade: Very Good with honor</p>
+                <p>Graduation Project Grade: Excellence</p>
+            </div>
+        </section>
+
+        <section class="certifications section">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Cisco CCNA Routing And Switching (200-120)</li>
+                <li>Juniper Networks Certified Associate - Junos (JNCIA-Junos)</li>
+                <li>Cisco Certified Specialist - Data Center Core (350-601)</li>
+                <li>Cisco Certified Specialist - Data Center ACI Implementation (300-620)</li>
+                <li>Cisco Certified Network Professional Data Center (CCNP Data Center)</li>
+                <li>Cisco Certified Specialist - Enterprise Core (350-401)</li>
+            </ul>
+        </section>
+
+        <!-- Updated Work History Section -->
+        <section class="work-history section">
+            <h2>Work History</h2>
+            <!-- Vodafone Greece -->
+            <div class="experience-item">
+                <h3>Senior IP and Data Center Network Engineer - Vodafone Greece</h3>
+                <p>(2023-08 - Present)</p>
+                <ul>
+                    <li>Part of the Core DataCenter Engineering team in Vodafone Greece.</li>
+                    <li>Participated in the re-design and re-architecture of the core data center network to achieve resiliency and redundancy both physically and logically.</li>
+                    <li>Avoided single points of failure and assured seamless failover in case of issues.</li>
+                    <li>Involved in upgrading and decommissioning all out-of-support and end-of-sale devices.</li>
+                    <li>Designed and delivered customer service connectivity for IT Data Centers deployed locally and internationally.</li>
+                    <li>Migrated services from legacy devices to ensure efficiency and supported decommissioning of obsolete devices.</li>
+                    <li>Defined and delivered technical solution designs.</li>
+                </ul>
+            </div>
+
+            <!-- Systems Engineering of Egypt -->
+            <div class="experience-item">
+                <h3>Senior Network & Data Center Specialist - Systems Engineering of Egypt (SEE)</h3>
+                <p>(2020-09 - 2023-08)</p>
+                <ul>
+                    <li>Managed Cairo International Airport Terminal Building Network (LAN, WAN, WLAN, and Data Center).</li>
+                    <li>Handled both Cisco Nexus and Catalyst Switches (Core, distribution, access model).</li>
+                    <li>Managed Cisco Wireless Controllers and Cisco UCS 5108 Blade Servers.</li>
+                    <li>Participated in a renovation project of legacy terminal building networks, including replacing out-of-support hardware.</li>
+                    <li>Re-designed and re-structured the network to achieve resiliency and redundancy, avoiding any single points of failure.</li>
+                    <li>Provided full support operations for solutions including Veeam Backup, VMware vCenter Server, and Dell EMC Data Domain and Unity XT storage systems.</li>
+                    <li>Worked with Cisco security devices such as ASA, ISE, and Firepower.</li>
+                    <li>Handled and followed up with field technicians to ensure efficient and timely field operations.</li>
+                    <li>Documented all network topologies and devices to assist with vendor follow-ups on warranty issues and RMAs.</li>
+                </ul>
+            </div>
+
+            <!-- Telecom Egypt -->
+            <div class="experience-item">
+                <h3>Enterprise Network Engineer - Telecom Egypt Co.</h3>
+                <p>(2019-03 - 2020-08)</p>
+                <ul>
+                    <li>Worked on the MSAN Migration Project, migrating L2/L3 services for enterprise customers from legacy access nodes (DSLAMs) to multi-service access nodes (MSAN).</li>
+                    <li>Configured and troubleshot PE-CE routing protocols including BGP, OSPF, EIGRP, RIP, and static routing.</li>
+                    <li>Configured MPLS L2 & L3 VPNs on PE (Cisco & Juniper).</li>
+                    <li>Dealt with customer premises equipment (CPE) such as SHDSL modems and CE/CPE routers.</li>
+                    <li>Handled MSAN access nodes from multiple vendors including Huawei, ZTE, and Alcatel.</li>
+                </ul>
+            </div>
+
+            <!-- Fiber Misr Systems -->
+            <div class="experience-item">
+                <h3>Network Engineer (Temp Contract - Project Based) - Fiber Misr Systems</h3>
+                <p>(2018-09 - 2019-02)</p>
+                <ul>
+                    <li>Worked on the Ministry of Education infrastructure development project.</li>
+                    <li>Responsible for configuring network devices including routers, switches, wireless controllers, and access points.</li>
+                    <li>Configured multi-vendor equipment (Cisco, Huawei, Aruba).</li>
+                    <li>Identified, diagnosed, and resolved network issues.</li>
+                    <li>Delivered the final project to customers.</li>
+                </ul>
+            </div>
+
+            <!-- Telecom Egypt (Tech Support) -->
+            <div class="experience-item">
+                <h3>Technical Support Engineer - Telecom Egypt Co.</h3>
+                <p>(2017-12 - 2018-08)</p>
+                <ul>
+                    <li>Configured and troubleshot internet issues for ADSL VIP customers, FTTH (Fiber to the Home), and IPTV customers.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Languages -->
+        <section class="languages section">
+            <h2>Languages</h2>
+            <ul>
+                <li>Arabic</li>
+                <li>English</li>
+            </ul>
+        </section>
+
+        <!-- Personal Skills -->
+        <section class="skills section">
+            <h2>Personal Skills</h2>
+            <ul>
+                <li>Team Player</li>
+                <li>Customer-Oriented</li>
+                <li>Well Organized</li>
+                <li>Love to Automate Tasks</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
